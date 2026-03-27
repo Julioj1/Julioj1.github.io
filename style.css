@@ -17,6 +17,10 @@
     --button-hover: #7FCFD8;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg-main);
     color: var(--text-primary);
@@ -353,19 +357,12 @@ footer {
     border-top: 2px solid var(--border);
 }
 
-@media (min-width: 900px) {
-    #home {
-        padding: 120px 20px;
-    }
-}
-
-@media (min-width: 900px) {
+/* Tablet */
+@media (min-width: 768px) {
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
-}
 
-@media (min-width: 600px) {
     .about-content {
         grid-template-columns: 2fr 1fr;
     }
@@ -376,5 +373,24 @@ footer {
 
     .contact-content {
         grid-template-columns: 1.5fr 1fr;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    #home {
+        padding: 120px 20px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    main {
+        max-width: 1100px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

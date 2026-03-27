@@ -12,7 +12,7 @@ I applied this concept in my project by adding subtle hover effects to interacti
 
 One project requirement I found **challenging**—but am proud of implementing—was using Flexbox and CSS Grid together, while also making the navigation bar sticky. The main challenge was deciding which layout system to use for which elements, since Flexbox and Grid solve different problems. I had to think carefully about the structure of the page instead of applying layout rules randomly.
 
-I used Flexbox for one-dimensional layouts like the navigation bar, where items needed to align horizontally and stay evenly spaced. For the product section, I switched to CSS Grid because it handled two-dimensional layouts better, allowing me to control rows, columns, and responsive breakpoints cleanly. To make the navigation sticky, I applied position: sticky with a top value and ensured its parent didn’t block it, so it stayed visible while scrolling. Breaking the layout into logical sections and choosing the right tool for each one helped me implement this requirement successfully.
+I used Flexbox for one-dimensional layouts like the navigation bar, where items needed to align horizontally and stay evenly spaced. For the projects section, I switched to CSS Grid because it handled two-dimensional layouts better, allowing me to control rows, columns, and responsive breakpoints cleanly. To make the navigation sticky, I applied position: sticky with a top value and ensured its parent didn’t block it, so it stayed visible while scrolling. Breaking the layout into logical sections and choosing the right tool for each one helped me implement this requirement successfully.
 
 ## How did you leverage AI to assist your development of this project?
 
